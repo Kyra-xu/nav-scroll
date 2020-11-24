@@ -1,6 +1,6 @@
 {
   "name": "simple-nav-scroll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue.js project for scroll nav",
   "author": "xuwenyan <1053198883@qq.com>",
   "private": false,
@@ -65,6 +65,6 @@
   ],
   "repository": {
     "type": "git",
-    "url":"https://github.com/axios/axios.git"
+    "url":"https://github.com/Kyra-xu/nav-scroll/tree/master"
   }
 }
