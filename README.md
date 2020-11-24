@@ -1,21 +1,41 @@
-# plugin-test
+# nav-scroll
 
-> A Vue.js project
+> A Vue.js project for nav-scroll
 
-## Build Setup
+## Installing
 
-``` bash
-# install dependencies
-npm install
+Using npm:
 
-# serve with hot reload at localhost:8080
-npm run dev
+```js
+ $npm install simple-nav-scroll
 
-# build for production with minification
-npm run build
+```
+## Example
 
-# build for production and view the bundle analyzer report
-npm run build --report
+>main.js
+
+```js
+    import Vue from 'vue'
+    import nav from 'simple-nav-scroll'
+    Vue.use(nav)
+```
+>component
+```html
+    <template>
+        <nav-scroll :dataLists="dataLists"></nav-scroll>
+    </template>
+```
+```js
+    <script>
+        export default {
+        data () {
+            return {
+                dataLists: ['标签1','标签2','标签3','标签4','标签5','标签6']
+            }
+        }
+        }
+    </script>
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
